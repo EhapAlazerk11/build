@@ -1,0 +1,340 @@
+	
+@font-face {
+  font-family: "CodecFont";
+  src: url(../fonts/Codec-Pro-Light.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "CodecFont1";
+  src: url(../fonts/Codec-Pro-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: "CodecFont2";
+  src: url(../fonts/Codec-Pro-News.ttf);
+  font-weight: normal;
+}
+ 
+
+body , p , h3 , h4 , h5  , a , button , span , div , input {
+font-family:'CodecFont2' , sans-serif !important;
+}
+h1 , h2 , h3 , h4 , h5 , h6 , strong{
+font-family:'CodecFont2' , sans-serif !important;
+}
+
+/* @font-face {
+	font-family: 'Tajawal Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal Regular'), url('../fonts/Tajawal-Regular.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal ExtraLight';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal ExtraLight'), url('../fonts/Tajawal-ExtraLight.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal Light'), url('../fonts/Tajawal-Light.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal Medium'), url('../fonts/Tajawal-Medium.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal Bold'), url('../fonts/Tajawal-Bold.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal ExtraBold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal ExtraBold'), url('../fonts/Tajawal-ExtraBold.woff') format('woff');
+	}
+	
+	
+	@font-face {
+	font-family: 'Tajawal Black';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Tajawal Black'), url('../fonts/Tajawal-Black.woff') format('woff');
+	}
+  body , p , h3 , h4 , h5  , a , button , span , div, input{
+	font-family:'Tajawal Regular' !important;
+  }
+  h1 , h2 , h3 , h4 , h5 , h6 , strong{
+	font-family:'Tajawal Bold' !important;
+  } */
+  .header__center , .about__list, .product ,.faq  , .checkout__center , .blog__list , .newsletter__container , .basket_header, .products__list , .breadcrumbs{
+    direction: rtl;
+  }
+  .products__list .product ,.site_content  ,.col_des, .login ,.details  , .contacts , .products__center , .blog__item , .company__container , .review__text ,.footer , .work__center , .cart__center{
+    direction: rtl;
+    text-align: right;
+}
+.title , .stage , .review__author {
+    text-align: right;
+  }
+  .filters__tag{
+    margin: 24px 24px 0 0;
+    padding: 0 22px 0 64px;
+    font-size: 16px;
+  }
+  .main__preview{
+    justify-content: flex-start;
+  }
+  .card__counter {
+    margin-left: 24px;
+    margin-right: 0;
+}
+.slider .slick-next {
+  left: 88px;
+  right: inherit;
+}
+.slider .slick-prev {
+  left: 24px;
+  right: inherit;
+}
+.details__icon{
+  margin-left: 32px;
+  margin-right: 0;
+}
+.card__btn {
+  margin-left: 24px;
+  margin-right: 0;
+}
+ 
+  .card__category{
+    margin-left: 32px;
+    margin-right: 0;
+  }
+  .card__number{
+    margin-right: 8px;
+    margin-left: 0;
+  }
+  .card__old{
+    margin-left: 16px;
+    margin-right: 0;
+  }
+  .nice-select .option:before{
+    left: 2px;
+    right: inherit;
+  }
+  .nice-select .option{
+    padding: 0 0 0 25px;
+    text-align: right;
+  }
+  .checkout__col:first-child{
+    padding-left: 96px;
+    padding-right: 0;
+  }
+
+  .filters__remove{
+    left: 24px;
+    right: inherit;
+  }
+  .filters__sorting > .filters__field{
+    margin-right: 72px;
+    margin-left: 0;
+  }
+  .drop__head:after{
+    left: 24px;
+    right: inherit;
+  }
+  .faq__head{
+    padding-left: 64px;
+    padding-right: 0;
+  }
+  .faq__arrow{
+    right: inherit;
+    left: 0;
+  }
+  .faq__body{
+    padding: 16px 0 0 64px;
+  }
+  .filters__wrap{
+    margin: -24px 0 0 auto;
+  }
+.review__container , .review .slick-dots{
+    flex-direction: row-reverse;
+  }
+  .work__col:nth-child(2){
+    padding-right: 96px;
+    padding-left: 0;
+  }
+  .nice-select{
+    text-align: right !important;
+    padding: 0 22px 0 55px;
+  }
+  .nice-select:before{
+    left: 24px;
+    right: inherit;
+  }
+  .header__item:not(:last-child) {
+    margin-left: 36px;
+    margin-right: 0;
+}
+.cart__old{
+  margin-left: 8px;
+  margin-right: 0;
+}
+.cart__preview{
+  margin-left: 56px;
+  margin-right: 0;
+}
+.cart__counter {
+  margin-left: 24px;
+  margin-right: 0;
+}
+.breadcrumbs__item:not(:last-child) {
+    margin-left: 20px;
+    margin-right: 0;
+}
+.checkout__step:first-child:before {
+  right: 0;
+  left: inherit;
+}
+.checkout__step:nth-child(3):before {
+  right: 66.66%;
+  left: inherit;
+}
+.checkout__variants .checkout__checkbox:not(:last-child) {
+  margin-left: 56px;
+  margin-right: 0;
+}
+.checkbox__tick{
+  margin-left: 9px;
+  margin-right: 0;
+}
+.breadcrumbs__item:not(:last-child):after{
+    margin: 0 20px 0 0;
+}
+.cart__col:first-child{
+  padding-left: 48px;
+  padding-right: 0;
+}
+ .checkout__step:not(:last-child), .header__logo , .review__ava ,.cart__box , .cart__line .cart__text:first-child{
+    margin-left: auto;
+    margin-right: 0;
+  }
+ 
+  .review__box{
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .header__body{
+    left: -56px;
+    right: inherit;
+  }
+  .main__details{
+    right: 96px;
+    left: inherit;
+    direction: rtl;
+    text-align: right;
+  }
+ 
+  .categories .slick-next{
+    left: 79px;
+    right: inherit;
+  }
+
+  .review .slick-dots li:not(:last-child) {
+    margin-left: 16px;
+    margin-right: 0;
+}
+  .categories .slick-prev {
+    left: 15px;
+    right: inherit;
+}
+.product__sale, .product__new{
+    left: -24px;
+    right: inherit;
+}
+
+.product__category{
+    margin-left: 24px;
+    margin-right: 0;
+    font-size: 12px;
+}
+.product__old{
+    margin-left: 8px;
+    margin-right: 0;
+}
+.about__item:not(:last-child) {
+    margin-left: auto;
+    margin-right: 0;
+}
+.blog__status{
+    left: -32px;
+    right: inherit;
+}
+.newsletter__btns{
+    padding-right: 24px;
+    padding-left: 0;
+}
+.footer__col:not(:last-child) {
+    margin-left: auto;
+    margin-right: 0;
+}
+.social__link:not(:last-child) {
+    margin-left: 16px;
+    margin-right: 0;
+}
+.basket__old{
+    margin-left: 12px;
+    margin-right: 0;
+}
+.basket__total .basket__text:first-child {
+    margin-left: auto;
+    margin-right: 0;
+}
+.basket__btns .basket__btn{
+    font-size: 15px;
+}
+.product__btn{
+    font-size: 13px;
+    height: 46px;
+}
+.switch__input:checked + .switch__in .switch__tick {
+    -webkit-transform: translateX(-24px);
+    -ms-transform: translateX(-24px);
+    transform: translateX(-24px);
+}
+.company__col:nth-child(2){
+    padding: 30px 120px 0 0;   
+}
+.company__category{
+    padding-right: 32px;
+    padding-left: 0;
+}
+.company__text{
+    padding-right: 32px;
+    padding-left: 0;
+}
+.company__category:before{ 
+    right: 0;
+    left: inherit;
+}
+@media only screen and (max-width: 767px){
+    .search__input{
+        text-align: right;
+    }
+}
