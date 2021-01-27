@@ -236,10 +236,10 @@ font-family:'CodecFont2' , sans-serif !important;
     margin-right: 0;
   }
  
-  .review__box{
+  /* .review__box{
     margin-left: auto;
     margin-right: 0;
-  }
+  } */
   .header__body{
     left: -56px;
     right: inherit;
